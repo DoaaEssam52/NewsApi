@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/index_style.css">
+
+</head>
+<body id="bodyWindow">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav navbar-primary ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"> منوعات<span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">رياضة</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">اعمال</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">صحة</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">علوم</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">تكنولوجيا</a>
+      </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="form-group my-3">
+    <input onkeyup="searchNews(this)" class="mx-auto form-control"type="text" placeholder="search by title">
+  </div>
+  <div class="container mx-auto row mt-5"id="newsShow">
+  </div>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/first.js"></script>
+</body>
+
+</html>
